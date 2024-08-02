@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>request</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-indigo-400">
+    <div class="h-[70vh] w-[30vw] bg-[#f2f2f2]">
+        <div>
+            <p class=" text-center text-lg">Post</p>
+             <hr class="h-px my-4 bg-gray-200 border-0 dark:bg-gray-700">
+        </div>
+        <div>
+        <form action="">
+            <div class="flex gap-7 mx-6 mt-6">
+                
+                
+            <input type="text" placeholder="First name" class="pl-2 border border-gray-700  w-40 shadow-xl hover:border-green-950 " >
+            <input type="text" placeholder="Last  name" class="pl-2 border border-gray-700  w-40 shadow-xl hover:border-green-950 " >
+                
+            </div>
+            <div>
+                <input type="email" placeholder=" Email Address "   class=" mt-6 mx-5 pl-2 border border-gray-700  w-[26vw] shadow-xl hover:border-green-950 ">
+                
+            </div>
+            <div class="flex gap-7 mx-6 mt-7">
+                <div class="">
+                    <p>preferred date</p>
+                <input type="date"  class="pl-2 border border-gray-700  w-40 shadow-xl hover:border-green-950">
+                </div>
+                <div>
+                    <p>contact no</p>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required class="pl-2 border border-gray-700  w-40 shadow-xl hover:border-green-950">
+
+                </div>
+            </div>
+
+              <div class="mx-6 mt-6 font-serif">
+                <p>I would like to...</p>
+              </div>
+              <div class="">
+                <div class="flex  mx-6 gap-14">
+                    <div >
+                     <input type="checkbox" value="schedule a tour"> scheducle a tour
+                     </div>
+                     <div>
+                     <input type="checkbox" value="Request Application">Request Application
+                     </div>
+                </div>
+
+
+                <div class="flex mx-6 gap-10">
+                    <div>
+                    <input type="checkbox" value="Confirm availability"> Confirm availability   
+                    </div>
+                    <div>
+                    <input type="checkbox" value="Custom Message">Custom Message
+                    </div>
+                </div>
+                
+              </div>
+              <div class="text-center  bg-slate-600 text-white  mt-6 mx-6">
+                <button> Send message</button>
+              </div>
+
+              <div class="text-xs ml-6 mt-3 ">
+                <input type="checkbox" value="Email me listings and appartments related info"> Email me listings and appartments related info
+                </div>
+
+
+            
+        
+        </form>
+        </div>
+    </div> 
+
+</body>
+</html>
